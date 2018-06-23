@@ -9,8 +9,21 @@ spring:
           username: zx88cvb
           password: ****
           basedir: D:/Software_Development/Java_Development/WorkSpace/IntelliJ-IDEA-workspace/github/springcloud_sell/config/basedir
+  rabbitmq:
+    host: 192.168.188.34
+    port: 5672
 
 eureka:
   client:
     service-url:
       defalutZone: http://localhost:8761/eureka
+
+#对外暴露所有接口
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+      cors:
+        allowed-origins: "*"
+        allowed-methods: "*"
