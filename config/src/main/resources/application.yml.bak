@@ -7,7 +7,7 @@ spring:
         git:
           uri: https://github.com/zx88cvb/config-repo
           username: zx88cvb
-          password: *
+          password: Xiang19951101
           basedir: D:/Software_Development/Java_Development/WorkSpace/IntelliJ-IDEA-workspace/github/springcloud_sell/config/basedir
   rabbitmq:
     host: 192.168.188.34
