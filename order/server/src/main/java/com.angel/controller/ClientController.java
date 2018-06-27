@@ -1,6 +1,5 @@
 package com.angel.controller;
 
-import com.angel.dataobject.ProductInfo;
 import com.angel.dto.CartDTO;
 import com.angel.product.client.ProductClient;
 import com.angel.product.common.DecreaseStockInput;
