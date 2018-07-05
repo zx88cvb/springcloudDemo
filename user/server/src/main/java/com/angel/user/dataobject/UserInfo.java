@@ -1,4 +1,4 @@
-package com.angel.dataobject;
+package com.angel.user.dataobject;
 
 import lombok.Data;
 

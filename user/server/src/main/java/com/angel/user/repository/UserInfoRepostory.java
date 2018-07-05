@@ -1,6 +1,6 @@
-package com.angel.repository;
+package com.angel.user.repository;
 
-import com.angel.dataobject.UserInfo;
+import com.angel.user.dataobject.UserInfo;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 /**

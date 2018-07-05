@@ -1,6 +1,6 @@
-package com.angel.service;
+package com.angel.user.service;
 
-import com.angel.dataobject.UserInfo;
+import com.angel.user.dataobject.UserInfo;
 
 /**
  * Created by Administrator on 2018/7/3.

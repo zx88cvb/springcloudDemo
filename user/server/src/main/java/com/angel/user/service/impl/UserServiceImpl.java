@@ -1,8 +1,8 @@
-package com.angel.service.impl;
+package com.angel.user.service.impl;
 
-import com.angel.dataobject.UserInfo;
-import com.angel.repository.UserInfoRepostory;
-import com.angel.service.UserService;
+import com.angel.user.dataobject.UserInfo;
+import com.angel.user.repository.UserInfoRepostory;
+import com.angel.user.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
