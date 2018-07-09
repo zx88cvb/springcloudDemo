@@ -1,6 +1,6 @@
-package com.angel.filter;
+package com.angel.apigetway.filter;
 
-import com.angel.exception.RateLimitException;
+import com.angel.apigetway.exception.RateLimitException;
 import com.google.common.util.concurrent.RateLimiter;
 import com.netflix.zuul.ZuulFilter;
 import com.netflix.zuul.exception.ZuulException;

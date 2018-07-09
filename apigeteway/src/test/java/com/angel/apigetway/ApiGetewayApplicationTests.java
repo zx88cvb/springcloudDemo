@@ -1,4 +1,4 @@
-package com.angel;
+package com.angel.apigetway;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;

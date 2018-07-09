@@ -50,4 +50,14 @@ public class OrderController {
         OrderDTO result = orderService.create(orderDTO);
         return ResultVo.createBySuccess(result.getOrderId());
     }
+
+    /**
+     * 完成订单(只能卖家操作)
+     * @param orderId
+     * @return
+     */
+    @PostMapping("/finish")
+    public ResultVo<OrderDTO> finish(String orderId){
+        return ResultVo.createBySuccess(orderService.finish(orderId));
+    }
 }
